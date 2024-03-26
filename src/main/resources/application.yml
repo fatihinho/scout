@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-co1gs80cmk4c73ea1hng-a.frankfurt-postgres.render.com/quizonline_kzkg
-    username: fcinar
-    password: M5ni7ziqNV0DqcJght57oAht0TeI18CQ
+    url: jdbc:postgresql://dpg-co1i7bol5elc73d23kqg-a.frankfurt-postgres.render.com/scout_y81d
+    username: scout_y81d_user
+    password: MW5NYOBznJRfF9mEmMh3qTLTLUrUzL7R
   jpa:
     properties:
       hibernate:
