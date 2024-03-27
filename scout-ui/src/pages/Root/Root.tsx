@@ -101,6 +101,8 @@ export default function Root() {
 
   const navigate = useNavigate();
 
+  const user = sessionStorage.getItem("user")!;
+
   function handleDrawerOpen() {
     setOpen(true);
   }
@@ -119,7 +121,7 @@ export default function Root() {
   }
 
   function handleLogout() {
-    sessionStorage.removeItem("isLoggedIn");
+    sessionStorage.removeItem("user");
     navigate("/login");
   }
 
@@ -146,9 +148,9 @@ export default function Root() {
             </Typography>
           </div>
           <div style={{display: 'flex', alignItems: 'center'}}>
-            <Avatar sx={{bgcolor: deepOrange[500]}}>U</Avatar>
+            <Avatar sx={{bgcolor: deepOrange[500]}}>{Array.from(user)[0].toUpperCase()}</Avatar>
             <label style={{color: 'white', fontSize: '16px', marginLeft: '8px', marginRight: '16px'}}>
-              Hello, user
+              Hello, {user}
             </label>
             <Logout onClick={handleLogout}/>
           </div>
