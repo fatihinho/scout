@@ -1,9 +1,0 @@
-.toolbar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.toolbarLeft {
-    display: flex;
-    align-items: center;
-}
