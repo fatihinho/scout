@@ -1,0 +1,12 @@
+{
+  "@@locale" : "en",
+  "email_message": "Please enter your email",
+  "email_valid_message": "Please enter a valid email",
+  "password_message": "Please enter your password",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "register": "Register",
+  "create_account": "Create an account",
+  "already_have_account": "Already have an account? Sign In"
+}

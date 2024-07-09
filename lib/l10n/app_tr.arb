@@ -1,0 +1,12 @@
+{
+  "@@locale" : "tr",
+  "email_message": "Lütfen email adresi giriniz",
+  "email_valid_message": "Lütfen geçerli bir email adresi giriniz",
+  "password_message": "Lütfen şifre giriniz",
+  "email": "E-Posta",
+  "password": "Şifre",
+  "login": "Giriş Yap",
+  "register": "Kayıt Ol",
+  "create_account": "Yeni bir hesap oluştur",
+  "already_have_account": "Zaten hesabınız var mı? Giriş Yap"
+}
